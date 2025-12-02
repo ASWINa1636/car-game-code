@@ -6,7 +6,6 @@ Players can install via pip and run a native binary using the `car-game` command
 ---
 
 ## Quick start
-
 # on Debian/Ubuntu
 sudo apt update && sudo apt install -y pipx
 pipx ensurepath
@@ -34,6 +33,9 @@ car-game
 
 ## For windows
 pip install cargame
+
+# Check here how it published
+https://github.com/ASWINa1636/Car-game-publish-setup
 
 # run
 car-game
