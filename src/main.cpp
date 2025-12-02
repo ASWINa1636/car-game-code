@@ -1,6 +1,4 @@
-// main.cpp
-// Cross-platform Terminal Racer (Linux/macOS + Windows)
-// Option 1: single codebase with #ifdef _WIN32 branches.
+// single codebase with #ifdef _WIN32 branches.
 
 #include <iostream>
 #include <vector>
@@ -147,13 +145,7 @@ void restoreTerminal() {
     std::cout.flush();
 }
 
-/**
- * Reads an input key or sequence without blocking.
- * Returns:
- *  - empty string if nothing was pressed
- *  - single printable char string for printable keys
- *  - escape-like sequences for arrows: "\033[A" etc (consistent across platforms)
- */
+
 std::string getInputSequence() {
 #ifdef _WIN32
     if (!_kbhit()) return std::string();
