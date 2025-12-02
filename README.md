@@ -1,5 +1,4 @@
-# cargame — Terminal Car Game 🚗💨
-
+# Terminal based car game
 A lightweight cross-platform terminal racing game written in C++ and packaged as a Python CLI wrapper.
 Players can install via pip and run a native binary using the `car-game` command.
 
