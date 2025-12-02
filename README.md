@@ -34,8 +34,9 @@ car-game
 ## For windows
 pip install cargame
 
+# run
+car-game
+
 # Check here how it published
 https://github.com/ASWINa1636/Car-game-publish-setup
 
-# run
-car-game
