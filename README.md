@@ -57,5 +57,5 @@ car-game
 
 ### Check here how it published
 
-[link](https://github.com/ASWINa1636/Car-game-publish-setup)
+[PUBLISHED SETUP REPO..](https://github.com/ASWINa1636/Car-game-publish-setup)
 
